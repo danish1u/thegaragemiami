@@ -1175,10 +1175,6 @@ z-index:222222222;
 }
 
 
-.row {
-    margin-right: 0px !important;
-    margin-left: 0px !important;
-}
 
 
 
@@ -1440,5 +1436,5 @@ z-index:222222222;
 
 
 .carousel-indicators{
-	left: 89%;
+	/*left: 89%;*/
 }
