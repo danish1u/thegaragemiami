@@ -1260,7 +1260,7 @@ z-index:222222222;
     display: none;
 }
 .container{
-	width:500px;
+	/*width:500px;*/
 		}
 	#level0{
 	width:95% !important;
@@ -1359,7 +1359,7 @@ z-index:222222222;
     width: 150px !important;
 }
 .container{
-	width:300px;
+	/*width:300px;*/
 		}
 }
 #level0{
