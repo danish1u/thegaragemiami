@@ -124,7 +124,7 @@ padding-right: 0;
   border-radius:0 !important;
   z-index: 999;
 }
-#navbar .navbar-nav li { background:url(../images/topmenuspretor.jpg) no-repeat right center; position:relative; overflow:hidden; padding:0px 0;}
+#navbar .navbar-nav li { background:url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Images/topmenuspretor.jpg") no-repeat right center; position:relative; overflow:hidden; padding:0px 0;}
 #navbar .navbar-nav li:last-child { background:none;}
 #navbar .navbar-nav li a {
 	overflow:hidden;
