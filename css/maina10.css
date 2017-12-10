@@ -1236,7 +1236,7 @@ z-index:222222222;
 
 .toplinks li a{color:#000000;}
 .toprightarea{text-align: center;margin: 0 auto;float:none;max-width:560px;}
-#navbar{background:#474747;width:100%;}
+#navbar{background:#474747;width:96%;}
 .search{background:#FFFFFF;float:left;width:100%;}
 .srch {width: 100%;max-width: 100%;margin: 0 auto;text-align: center;float: none;}
 .srchfld{width:90%;}
@@ -1262,7 +1262,6 @@ z-index:222222222;
 .container{
 	width:500px;
 		}
-    
 	#level0{
 	width:95% !important;
 	margin-bottom:15px;
@@ -1328,9 +1327,7 @@ z-index:222222222;
     margin: 0 auto;
 }
 .srchfoo{width:200px;}
-.srch-btn{
-	margin: 15px 0px 0px 0px;
-	}
+
 }
 
 
