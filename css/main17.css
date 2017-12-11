@@ -1199,12 +1199,12 @@ z-index:222222222;
 
 
 @media screen and (max-width:1199px){
-	.headerbg{background:url(../images/header-bg2.jpg) center top no-repeat; margin:30px 0 0 0;}
+	.headerbg{background:url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Images/header-bg11.png") center top no-repeat; margin:30px 0 0 0;}
 .social {margin:15px 15px 0 15px;}
 .social li{margin: 4px 2px;}
 .savemoney{display:none}
-.toprightarea{margin:0 12px;}
-#navbar .navbar-nav li a {font-size: 13px; padding: 16px 25px;}
+.toprightarea{margin:0 -57px;}
+#navbar .navbar-nav li a {font-size: 13px; padding: 16px 21px;}
 .srch{width:243px;}
 .srchfld{width:200px;}
 .select_year{margin:0 10px; max-width:247px;}
