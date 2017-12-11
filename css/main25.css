@@ -1435,4 +1435,7 @@ z-index:222222222;
 .navbar-default .navbar-brand{
 	display:block;
 }
+	.srch-btn {
+    margin: 15px 0px 0px 3px;
+}
 }
