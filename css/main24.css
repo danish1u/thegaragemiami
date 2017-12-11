@@ -1428,6 +1428,9 @@ z-index:222222222;
     padding: 16px 25px;
 }
 }
+@media screen and (max-width:736px){
+#navbar{background:#474747;width:100%;}
+}
 @media screen and (max-width:580px){
 .navbar-default .navbar-brand{
 	display:block;
