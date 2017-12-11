@@ -1438,7 +1438,7 @@ z-index:222222222;
 .carousel-indicators{
 	/*left: 89%;*/
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
 #navbar .navbar-nav li a {
     font-size: 13px;
     padding: 16px 25px;
