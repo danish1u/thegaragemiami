@@ -1197,11 +1197,11 @@ z-index:222222222;
 	margin:6px 14px;}
 
 }
-@media screen and (max-width:991px){
-  .logo{width:100%;  
+@media screen and (max-width:1199px){
+  .logo{ 
     float: left;
     margin: 29px 0 0px -10px;
-    width: 197px;
+    width: 200px;
   }
 }
 @media screen and (max-width:991px){
