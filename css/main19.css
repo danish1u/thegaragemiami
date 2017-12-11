@@ -1280,7 +1280,7 @@ z-index:222222222;
 	margin-bottom:20px;
 	}
 .navbar-default .navbar-brand{
-	display:block;
+	display:none;
 }
 .topright{
 	display:none;
@@ -1437,4 +1437,9 @@ z-index:222222222;
 
 .carousel-indicators{
 	/*left: 89%;*/
+}
+@media screen and (max-width:580px){
+.navbar-default .navbar-brand{
+	display:block;
+}
 }
