@@ -177,7 +177,7 @@ padding-right: 0;
     margin: 4px 0 3px 30px;}
 
 .srchfld{
-	width: 300px;
+    width: 300px;
     float: left;
     height: 30px;
     padding: 0px 0px 0px 10px;
@@ -188,7 +188,7 @@ padding-right: 0;
     margin: 7px 0px 0px 0px;
     background: none;
     border: none;
-	color:#000;
+	color:#fff;
 }
 
 
@@ -1175,8 +1175,8 @@ z-index:222222222;
 /*-----------@media screen------------*/
 
 @media screen and (max-width:1199px){
-	.headerbg{background:url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Images/header5.png") center top no-repeat; margin:30px 0 0 0;}
-.social {margin:15px 15px 0 15px;}
+	.headerbg{background:url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Images/header-bga.png") center top no-repeat; margin:30px 0 0 0;}
+.social {margin:0px 0px 0 2px;}
 .social li{margin: 4px 2px;}
 .savemoney{display:none}
 .toprightarea{margin:0 -57px;}
@@ -1190,6 +1190,7 @@ z-index:222222222;
 .view4{ max-width:300px; margin:10px 20px 0 0;}
 .view5{ max-width:300px;}
 .none{display:none;}
+.toplinks{ padding-left: 51px;}	
 .srchfoo{width:250px;}
 .socialfooter li{
 	margin:6px 14px;}
