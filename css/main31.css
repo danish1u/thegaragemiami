@@ -24,6 +24,8 @@ body {
     text-transform: uppercase;
     background: #1d3768;
     color: #fff;
+	    height: 42px;
+    margin-top: 1px;
 }
 .footer-btn:hover{
 	background:#000000
@@ -1338,7 +1340,7 @@ z-index:222222222;
 
 @media screen and (max-width:400px){
 .srchfoo {
-    width: 150px !important;
+    width: 210px !important;
 }
 .container{
 	/*width:300px;*/
