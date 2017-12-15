@@ -76,7 +76,7 @@ padding-right: 0;
 .toprightarea { float:left;}
 .toplinks { float:left; list-style:none; margin-top:12px;padding-left:0;}
 .toplinks li {float: left;padding: 10px 25px 0 0;}
-.toplinks li a { display:inline-block; font-size:13px; color:#fff; padding-top:2px; position:relative; overflow:hidden;}
+.toplinks li a { display:inline-block; font-size:13px; color:#fff; padding-top:2px;padding-left: 3px; position:relative; overflow:hidden;}
 .toplinks li a:before { position:absolute; left:-100%; width:100%; border-top:2px solid #fff; transition:0.3s all ease; content:""; top:0;}
 .toplinks li a:hover:before { left:0;}
 
@@ -136,7 +136,7 @@ padding-right: 0;
   padding:16px 23px;
   }
 
- #navbar .navbar-nav li a:before {content: "";   position: absolute;    z-index: -1;    top: 0;    left: 0;    right: 0;    bottom: 0;    background: #21386e;    -webkit-transform: scaleX(0);    transform: scaleX(0);    -webkit-transform-origin: 0 50%;    transform-origin: 0 50%;    -webkit-transition-property: transform;    transition-property: transform;    -webkit-transition-duration: 0.5s;    transition-duration: 0.5s;    -webkit-transition-timing-function: ease-out;    transition-timing-function: ease-out;}
+ #navbar .navbar-nav li a:before {content: "";   position: absolute;    z-index: -1;    top: 0;    left: 0;    right: 0;    bottom: 0;    background: #242847;    -webkit-transform: scaleX(0);    transform: scaleX(0);    -webkit-transform-origin: 0 50%;    transform-origin: 0 50%;    -webkit-transition-property: transform;    transition-property: transform;    -webkit-transition-duration: 0.5s;    transition-duration: 0.5s;    -webkit-transition-timing-function: ease-out;    transition-timing-function: ease-out;}
   #navbar .navbar-nav li:hover a:before {-webkit-transform: scaleX(1);    transform: scaleX(1);    -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);    transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);}
 
 .navbar-default .navbar-brand  { color:#fff !important; display:none;}
