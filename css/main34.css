@@ -735,7 +735,7 @@ z-index:222222222;
 .view4 {
    max-width:360px;
    width: 100%;
-   margin: 10px 29px 0 0;
+   margin: 10px 29px 0 -15px;
    float: left;
    overflow: hidden;
    position: relative;
@@ -843,7 +843,7 @@ z-index:222222222;
 .view5 {
    width:100%;
    max-width: 360px;
-   margin: 10px 0px 0 0;
+   margin: 10px 0px 0 -14px;
    float: left;
    overflow: hidden;
    position: relative;
