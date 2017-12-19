@@ -1281,28 +1281,28 @@ z-index:222222222;
 .select_year {max-width: 98%;margin: 6px;}
 .search_parts{float:none !important;}
 .shipping-icon{display:none;}
-.cate01{ width: 100%;
-    margin: 0 auto;
+.cate01{  width: 100%;
+margin: auto !important;
     text-align: center;
    
 }
-.cate02{ width: 100%;
-    margin: 0 auto;
+.cate02{  width: 100%;
+margin: auto !important;
     text-align: center;
    
 }
-.cate03{ width: 100%;
-    margin: 0 auto;
+.cate03{  width: 100%;
+margin: auto !important;
     text-align: center;
     
 }
-.cate04{ width: 100%;
-    margin: 0 auto;
+.cate04{  width: 100%;
+margin: auto !important;
     text-align: center;
    
 }
-.cate05{ width: 100%;
-    margin: 0 auto;
+.cate05{  width: 100%;
+margin: auto !important;
     text-align: center;
    
 }
