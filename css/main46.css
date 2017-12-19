@@ -1293,8 +1293,6 @@ z-index:222222222;
     text-align: center;
     
 }
-   
-}
 .cate03{      width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -1313,6 +1311,8 @@ z-index:222222222;
    
    
 }
+	}
+
 .socialfooter{display:none;
 }
 .footersearch p{text-align:center; float:none;}
@@ -1325,7 +1325,6 @@ z-index:222222222;
 }
 .srchfoo{width:200px;}
 
-}
 }
 
 @media screen and (max-width:580px){
