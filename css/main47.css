@@ -1245,7 +1245,6 @@ z-index:222222222;
 }
 
 @media screen and (max-width:768px){
-
 	.socail_1 {
     display: none;
 }
@@ -1309,10 +1308,8 @@ z-index:222222222;
     margin: 0 auto;
     text-align: center;
    
-   
 }
-	}
-
+}
 .socialfooter{display:none;
 }
 .footersearch p{text-align:center; float:none;}
@@ -1367,7 +1364,6 @@ z-index:222222222;
     margin: 0 auto;
     text-align: center;
     max-width: 225px;
-   
 }
 }
 @media screen and (max-width:480px){
