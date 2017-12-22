@@ -1109,7 +1109,7 @@ z-index:222222222;
 }
 .srchfooter{
     float: left;
-    margin: 0 25px 0 0;
+    margin: 3px 25px 0 0;
 }
 .number{
 	float:left;
@@ -1412,7 +1412,7 @@ margin-left: 1.8px;
     color: #fff;
     padding: 10px 10px;
     border-radius: 4px;
-    margin: 0 6px;
+    margin: 3px 6px;
     transition: all 0.5s ease-in-out;
 }
 .socail_1 .fa-linkedin:hover{
