@@ -414,19 +414,16 @@ z-index:222222222;
 	font-size:40px;
 }
 
-/*categories hover css*/
-
-
+/*categories hove css end*/
 .view {
-   max-width:634px;
+   max-width:650px;
    width:100%;
-   margin: 10px 33px 0 13px;
+   margin: 10px 33px 0 0;
    float: left;
    overflow: hidden;
    position: relative;
    text-align: center;
    cursor: default;
-	    border: 2px solid #eee;
 }
 
 .view .mask, .view .content {
@@ -526,15 +523,14 @@ z-index:222222222;
 
 /*cate02*/
 .view2 {
-       max-width: 447px;
-    width: 100%;
-    margin: 10px 0px 0 -4px;
+   max-width:457px;
+   width: 100%;
+   margin: 10px 0px 0 0;
    float: left;
    overflow: hidden;
    position: relative;
    text-align: center;
     cursor: default;
-	    border: 2px solid #eee;
 }
 
 .view2 .mask2, .view2 .content {
@@ -579,7 +575,7 @@ z-index:222222222;
    height:0;
    transform:translateY(-125px);
    transition: transform 0.2s 0.1s ease-out, opacity 0.3s ease-in-out;
-
+   
 }
 
 .effect2 a.info2 {
@@ -631,15 +627,14 @@ z-index:222222222;
 
 /*cate03*/
 .view3 {
-      max-width: 360px;
-    width: 100%;
-    margin: 10px 30px 20px 14px;
+   max-width:360px;
+   width: 100%;
+   margin: 10px 30px 20px 0;
    float: left;
    overflow: hidden;
    position: relative;
    text-align: center;
    cursor: default;
-	    border: 2px solid #eee;
 }
 
 .view3 .mask3, .view3 .content {
@@ -738,13 +733,12 @@ z-index:222222222;
 .view4 {
    max-width:360px;
    width: 100%;
-   margin: 10px 29px 0 -15px;
+   margin: 10px 29px 0 0;
    float: left;
    overflow: hidden;
    position: relative;
    text-align: center;
    cursor: default;
-	    border: 2px solid #eee;
 }
 
 .view4 .mask4, .view4 .content {
@@ -847,13 +841,12 @@ z-index:222222222;
 .view5 {
    width:100%;
    max-width: 360px;
-   margin: 10px 0px 0 -14px;
+   margin: 10px 0px 0 0;
    float: left;
    overflow: hidden;
    position: relative;
    text-align: center;
    cursor: default;
-	    border: 2px solid #eee;
 }
 
 .view5 .mask5, .view5 .content {
@@ -959,7 +952,6 @@ z-index:222222222;
    position: relative;
    text-align: center;
    cursor: default;
-	    border: 2px solid #eee;
 }
 
 .view6 .mask6, .view6 .content {
@@ -1053,8 +1045,6 @@ z-index:222222222;
    opacity:1;
    transition-delay: 0.3s;
 }
-
-
 /*categories hove css end*/
 
 
