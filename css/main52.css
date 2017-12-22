@@ -1184,8 +1184,8 @@ z-index:222222222;
 .view{max-width: 540px; margin: 10px 20px 0 0;}
 .view2{max-width:380px;}
 .view3{max-width:300px; margin:10px 20px 20px 0;}
-.view4{ max-width:300px; margin:10px 20px 0 0;}
-.view5{ max-width:300px;}
+.view4{ max-width:300px;margin:10px 20px 0 0;}
+.view5{ max-width:300px;margin: 10px 0px 0px 0px;}
 .none{display:none;}
 .toplinks{ padding-left: 51px;}	
 .srchfoo{width:250px;}
