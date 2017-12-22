@@ -1334,8 +1334,9 @@ z-index:222222222;
     max-width: 100%;
 }
 .view{
-	width:100%;}
-
+	width:99%;
+margin-left: 1.8px;
+}
 }
 
 @media screen and (max-width:400px){
