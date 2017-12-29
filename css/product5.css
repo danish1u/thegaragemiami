@@ -146,7 +146,7 @@ table.gallery img.sale {
 	left: 0px;
 }
 table.fixed img{
-	width:100% !important;
+	/*width:100% !important;*/
 	}
 /*---Left Column->START*/
 #rightarea {
@@ -415,7 +415,7 @@ table.gallery td.picture div.image {
     overflow: hidden;
     width: 200px !important;
 }
-table.gallery img{ margin:0; padding:0; border:0;   width: 185px;}
+table.gallery img{ margin:0; padding:0; border:0; /*  width: 185px;*/}
 table.gallery div.ttl .ii{
 	display: none;!important;
 }
