@@ -400,9 +400,9 @@ td#CentralArea div.rs-pview{ margin:0; padding:20px 0 0 5px; border:0;}
 
 td#CentralArea div.dynpg{ margin:0; padding:0px 0 0 0; border:0;}
 td#CentralArea div.dynpg table.pgbc{color:#FFF; font-weight:normal; font-size:11px; margin:0px; padding:0; background-color:#2a2a2a;}
-table.gallery div.ttl{margin:0px 0px 0px 0px !important; width:100%;}
+table.gallery div.ttl{margin:5px 0px 0px 0px !important; width:100%;}
 
-table.fixed{margin:5px 0px 0px 0px !important; width:100%;}
+table.fixed{margin:14px 0px 0px 0px !important; width:100%;}
 table.fixed > tbody >tr:nth-child(1) >td:nth-child(1) img{ margin-top:3px; }
 table.fixed > tbody >tr:nth-child(1) >td:nth-child(2) { text-align:right; color:red;}
 table.fixed > tbody >tr:nth-child(1) >td {width:78%; display:inline-block; color:red; margin-left: -75px;}
