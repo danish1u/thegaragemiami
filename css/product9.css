@@ -416,7 +416,7 @@ table.gallery td.picture div.image {
     width: 200px !important;
 }
 td .basics{
-	    /*     width: 210px; */
+	      width: 210px !important;
 }
 table.gallery img{ margin:0; padding:0; border:0; /*  width: 185px;*/}
 table.gallery div.ttl .ii{
