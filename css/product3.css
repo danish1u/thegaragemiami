@@ -417,7 +417,7 @@ table.gallery td.picture div.image {
 }
 table.gallery img{ margin:0; padding:0; border:0;   width: 185px;}
 table.gallery img .ii{
-	display: none;
+	display: none;!important;
 }
 td#CentralArea table.gallery td.picture div.image img{ margin:0; padding:10px 0 0 0; border:0; height:150px;}
 td#CentralArea .grid{ margin:10px 0 0 0; padding:0; border:0;}
