@@ -533,7 +533,7 @@ table.gallery table.fixed div.time2 {padding-top: 9px !important;float: right;pa
 }
 @media screen and (max-width:991px){
 #LeftPanel { width:95% !important; margin:0 2.5%; display:block;}
-#rightarea { width:95% !important; margin:10px 2.5%;}
+#rightarea { width:95% !important; margin:10px 1.9%;}
 .stBadge-midContent { padding:10px !important;}
 .stBadge img { display:none !important;}
 .stBadge .stBadge-accent { display:none !important;}
