@@ -1,0 +1,98 @@
+.pagecontainer table tr td table tr:nth-child(2) {
+    display: table;
+    margin: auto;
+    padding: 0 0px;
+    text-align: left;
+    width: 100%;
+    max-width: 1300px;
+	margin-top: 15px;
+}
+.pagewidth td.gallery {
+    padding-top: 0;
+    margin-bottom: 4px;
+    background-color: #FFFFFF;
+  /*  padding: 10px;*/
+}
+
+.pagewidth table.gallery {
+    padding: 0px;
+    height: 370px;
+    min-height: 370px;
+    background-color: #fff;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    border: 1px solid #dcdcdc;
+}
+
+table.gallery td.picture {
+    height: 220px;
+    margin: 0 auto;
+    padding: 40px 0 !important;
+    text-align: center !important;
+    vertical-align: middle;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+}
+table.gallery .mi {
+    padding: 4px 10px 0;
+    display: none;
+}
+table.gallery .mi a {
+    font-size: 10px;
+    line-height: 13px;
+    color: #616161;
+}
+table.gallery tr td.details {
+    font-family: 'Rubik', sans-serif !important;
+    padding: 0 20px;
+}
+table.gallery tr td.details div.ttl {
+    font-family: 'Rubik', sans-serif !important;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 0 20px;
+    text-align: left;
+}
+table.gallery table.fixed {
+    margin-top: 5px;
+    width: 100%;
+}
+table.gallery table.fixed tr td {
+    display: table-cell;
+    width: 50% !important;
+}
+table.gallery table.fixed tr td:last-child {
+    text-align: right;
+}
+table.gallery table.fixed tr td .bin.g-b {
+    font-family: 'Rubik', sans-serif !important;
+    text-align: right;
+    display: block;
+    font-weight: normal;
+    color: #dca87b;
+    font-size: 14px;
+}
+table.fixed > tbody > tr > td:nth-child(1), table.fixed > tbody > tr > td:nth-child(2) {
+    width: 50%!Important;
+    display: inline-block;
+    text-align: left;
+}
+table.gallery tr td.details table.fixed tr td div.clr span.label {
+    padding-right: 5px;
+}
+
+table.gallery tr td.details table.fixed tr td div.ship span, table.gallery tr td.details table.fixed tr td div.clr span {
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    font-weight: normal;
+    padding: 0px;
+}
+div.itemseparator {
+    border: 0;
+    display: none;
+}
+.pagewidth .grid td.left {
+    border: 0;
+}
