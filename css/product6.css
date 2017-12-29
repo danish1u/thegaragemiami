@@ -499,7 +499,7 @@ td.details {
 }
 .basics { margin-top: 10px; display: block;float: left;margin-right: 42px;}
 .basics .label{ font-size:12px !important; margin-right:2px; padding:0 !important; color:#000 !important; font-weight:normal !important;}
-table.gallery table.fixed div.time2 {padding-top: 20px !important;float: right;}
+table.gallery table.fixed div.time2 {padding-top: 9px !important;float: right;padding-right: 0px;}
 .time2 .label{ font-size:12px !important; margin-right:2px; padding:0 !important; color:#000 !important; font-weight:normal !important;}
 .r form.form input[type="submit"]{ color:#000;}
 #gh-la img { max-width:none;}
