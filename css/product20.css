@@ -572,7 +572,7 @@ td#CentralArea div.fpcc {
 
 }
 @media screen and (max-width: 500px){
-.dynpg td { display:inline;    width: 100%;text-align: left;}
+.dynpg td { /*display:inline;*/width: 100%;text-align: left;}
 .dynpg .l { /*display:none !important;*/}
 .dynpg .r { text-align:center;}
 .pager {
