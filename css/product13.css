@@ -405,7 +405,7 @@ table.gallery div.ttl{margin:0px 0px 0px 0px !important; width:100%;}
 table.fixed{margin:5px 0px 0px 0px !important; width:100%;}
 table.fixed > tbody >tr:nth-child(1) >td:nth-child(1) img{ margin-top:3px; }
 table.fixed > tbody >tr:nth-child(1) >td:nth-child(2) { text-align:right; color:red;}
-table.fixed > tbody >tr:nth-child(1) >td {width:40%; display:inline-block; color:red;}
+table.fixed > tbody >tr:nth-child(1) >td {width:78%; display:inline-block; color:red; margin-left: -75px;}
 table.gallery table.fixed span.disct, table.gallery table.prices span.disct { margin-right:10px;}
 div.mi{margin:8px 0px 8px 15px !important; padding-top:0 !important; width:150px; float:left;display: none;}
 td#CentralArea div.dynpg table.pgbc a{ color:#FFF !important;}
@@ -417,6 +417,7 @@ table.gallery td.picture div.image {
 }
 td .basics{
 	      width: 90px !important;
+	    display: none;
 }
 table.gallery img{ margin:0; padding:0; border:0; /*  width: 185px;*/}
 table.gallery div.ttl .ii{
