@@ -44,4 +44,8 @@ jQuery(document).ready(function(){
 			$(".estore-content").after(footer);
 		}
 	}
+	$V(document).ready(function(){
+		$V('.rs-pview >table:first-child').removeClass('1grid');
+		$V('.rs-pview >table:first-child').addClass('1grid_new');
+	});
 });
