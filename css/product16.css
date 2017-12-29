@@ -348,8 +348,8 @@ width:100%;
 td#CentralArea div.fpcc {
     padding: 0 27px !important;
     display: block;
-    height: 58px;
-    line-height: 25px;
+    height: 63px;
+    line-height: 2531px;
     background: #1e2346;
     border: 1px solid #e3e3e3;
 }
@@ -585,6 +585,9 @@ td#CentralArea span.pdmt {
     padding-right: 5px;
     padding-left: 5px;
 }
+	td#CentralArea div.fpcc {
+		    padding: 0 15px !important;
+	}
 }
 @media screen and (max-width: 350px){
 	td#CentralArea div.fpcc {
