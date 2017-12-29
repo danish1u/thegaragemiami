@@ -346,12 +346,12 @@ width:100%;
 /*---Right Column->START*/
 
 td#CentralArea div.fpcc {
-    padding: 0 15px !important;
+    padding: 0 27px !important;
     display: block;
     height: 58px;
-    line-height: 42px;
-    background: #1d3768;
-	    border: 1px solid #e3e3e3;
+    line-height: 25px;
+    background: #1e2346;
+    border: 1px solid #e3e3e3;
 }
 td#CentralArea {background: url(images/bg.png) repeat-y center top; float: left; padding:0px 0 10px 0px; width: 100%;
 margin:0px 0 0 0;}
