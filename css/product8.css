@@ -415,8 +415,8 @@ table.gallery td.picture div.image {
     overflow: hidden;
     width: 200px !important;
 }
-table.gallery td .basics{
-	    /* width: 100%; */
+td .basics{
+	    /*     width: 210px; */
 }
 table.gallery img{ margin:0; padding:0; border:0; /*  width: 185px;*/}
 table.gallery div.ttl .ii{
