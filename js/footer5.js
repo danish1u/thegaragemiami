@@ -1,7 +1,18 @@
 jQuery(document).ready(function(){
 	//Right Click Protection
 	//$(document).bind("contextmenu",function(e){ return false;});
-
+var $V = jQuery.noConflict();		
+	$V(".pagecontainer > table:eq(1)").addClass("pst-background");
+	$V(".pagecontainer > table:eq(1) tr:first td:first").addClass("pst-background2");
+	$V(".pst-background > tbody > tr > td > table:last-child").addClass("addfooter");
+	$V(".pst-background table:eq(1) tbody:first").addClass("row1");
+	$V(".pst-background table:eq(1) tr:first").addClass("nospace1");
+	$V(".pst-background table:eq(1) tr:eq(1)").addClass("pst-content1 row1");
+	$V(".pst-background table:eq(1) tr:eq(1) td:first").addClass("1col-md-3 1col-sm-3 1col-xs-12");
+	$V(".pst-content > td:eq(1)").addClass("1pst-gap");
+	$V(".pst-content > td:eq(2)").addClass("1categorypage 1col-md-91 col-sm-9 1col-xs-12");
+	
+	
 	//Content Area Mods
 	$(".pagecontainer > table:eq(1) tr:first td:first").addClass("estore-background");
 	$(".estore-background table:eq(1)").addClass("estore-content");
