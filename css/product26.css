@@ -479,7 +479,7 @@ table#TopPromoArea table.v4midBox{ border:0; background:url(images/promo_mid_bg.
     text-align: left;
     color: #000;
     height: auto;
-    margin-left: -27px !important;
+    margin-left: -24px !important;
     display: inline-block;
     max-width: 270px !important;
     width: 100% !important;
@@ -523,6 +523,7 @@ table.gallery table.fixed div.time2 {padding-top: 9px !important;float: right;pa
 
 #CentralArea td.gallery table.gallery {
     max-width: 270px !important;
+	margin-left: -11px !important;
 }
 #estore-categories ul.lev1 {
     width: 100% !important;
@@ -588,9 +589,10 @@ td#CentralArea div.fpcc {
 td#CentralArea span.pdmt {
     padding-right: 5px;
     padding-left: 5px;
+    display: none;
 }
-	td#CentralArea div.fpcc {
-		    padding: 0 15px !important;
+td#CentralArea div.fpcc {
+	padding: 0 15px !important;
 	}
 }
 @media screen and (max-width: 350px){
