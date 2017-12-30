@@ -114,10 +114,10 @@ ESS Left column
     text-decoration: none;
     color: #dca87b;
 }
-#LeftPanel .lcat ul li{
-list-style-type:cjk-ideographic;
-	 position: absolute;
-}
+
+
+	
+
 #LeftPanel .lcat ul li,#LeftPanel .lcat ul li span {
        color: #000000;
     font-family: sans-serif;
@@ -180,6 +180,7 @@ list-style-type:cjk-ideographic;
         display: inline-block;
         padding: 9px;
 text-align: center;
+	      list-style-type:cjk-ideographic;
       }
 @media(max-width: 768px) {
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
