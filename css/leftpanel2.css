@@ -6,25 +6,18 @@ td#CentralArea,
 td#CentralArea * {
    
 }
-@media(max-width: 768px) {
-.pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
-	display: none !important;
-}
-	#LeftPanel td.v4title * {
-    display: block;
-}
-}
 .block-title,
 td#CentralArea div.fpcc,
 #LeftPanel td.v4title,
 td#CentralArea div.fpcc {
-    font-weight: bolder;
+    font-weight: bold;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
     padding: 0 12px;
     margin: 0;
     border: 0;
+    background: #1e2346;
 }
 #LeftPanel .shop-catz td.v4title {} .block-title span,
 td#CentralArea div.fpcc div {
@@ -32,12 +25,12 @@ td#CentralArea div.fpcc div {
     font-size: 13px;
 }
 #LeftPanel td.v4title * {
-     font-weight: bolder;
+    font-weight: bold;
     color: #fff;
-    font-size: 18px!important;
-    display: block;
+    font-size: 15px!important;
     text-indent: 9px;
-        line-height: 35px;
+    line-height: 35px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 td#CentralArea span.pdmt {
     padding-right: 20px;
@@ -50,9 +43,9 @@ ESS Left column
 -----------------------------------------------------------------------------------*/
 
 #LeftPanel {
-    width: 250px!important;
+    width: 22% !important;
     height: auto;
-	padding-top:30px;
+  /*padding-top:30px;*/
 }
 
 #LeftPanel .v4acpcont {
@@ -184,3 +177,11 @@ ESS Left column
         padding: 9px;
 text-align: center;
       }
+@media(max-width: 768px) {
+.pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
+	display: none !important;
+}
+	#LeftPanel td.v4title * {
+    display: block;
+}
+}
