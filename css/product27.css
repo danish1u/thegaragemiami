@@ -154,192 +154,6 @@ table.fixed img{
     float: right;
     margin: 0px 0px 0 0px;
 }
-#estore-leftpanel{width:100%; float:left; margin:0px 0px 0px 10px !important; padding:0px;}
-#LeftPanel {
-    width: 23%!important;
-    text-align: left;
-    vertical-align: top !important;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-}
-/*#LeftPanel * {   }
-#LeftPanel img { border: 0px; }
-#LeftPanel .ttl { display: none !important; }
-#LeftPanel .cnt { display: none !important; }
-#LeftPanel .all_cats { display: none !important; }
-#LeftPanel .link { display: none !important; }
-/*#LeftPanel .v4acpcont { display: none !important; }*/
-
-#estore-cathead {
-	width: 282px;
-	height: 41px;
-	background-image: url(images/store_cat.jpg);
-	background-repeat: no-repeat;
-	background-position: center top;
-	float: left;
-	padding: 0px;
-	margin: 0px;
-}
-#estore-catbot {
-	width: 282px;
-	height: 4px;
-	background-image: url(images/cat_bottom.png);
-	background-repeat: no-repeat;
-	background-position: center top;
-	float: left;
-	padding: 0px;
-	margin: 0px 0px 10px 0px;
-}
-
-#estore-categories {
-    width: 100%;
-    margin: 0px 0 0 0px;
-    padding: 0px;
-    float: left;
-    background: url(images/cat_center_bg.png) repeat-y center top;
-}
-#estore-categories ul.lev1 {
-	     padding: 10px 0px 10px 0px;
-	  border:1px solid #e8e8e8;
-	  list-style:none;
-	 background: #f5f5f5;
-width:100%;
-}
-#estore-categories ul.lev1 li {
-	margin: 0;
-    padding:0px;
-    list-style: none;
-}
-#estore-categories ul.lev1 li:last-child {
-    border-bottom: none;
-}
-#estore-categories ul.lev1 li.estore-lastitem { margin: 0px; }
-
-#estore-categories ul.lev1 li a {
-    text-decoration: none;
-    display: block;
-    background: url(../images/left_arrow.png) no-repeat left 10px center;
-    padding: 10px 0px 10px 30px;
-    color: #000 !important;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-	transition:all 0.5s ease-in-out;
-
-}
-#estore-categories ul.lev1 li span {
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-    height: 42px;
-    line-height: 42px;
-    margin-left: 0px;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    background: #112131;
-    text-align: center;
-}
-#estore-categories ul.lev1 li a:hover {
-	    color: #fff !important;
-    background:#112131;
-}
-#estore-categories ul.lev2 {
-	list-style-type: none;
-	width: 100%;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	color:#000;
-}
-#estore-categories ul.lev2 li {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin: 0px;
-}
-#estore-categories ul.lev2 li a {
-	color: #000;
-    font-family: "Open Sans", sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    text-decoration: none;
-    display: block;
-    background: url(../images/arrow.png) no-repeat left 25px center;
-    padding: 7px 0px 7px 25px;
-}
-#estore-categories ul.lev2 li a:hover {
-	 color: #ffffff !important;
-    background: #323232;
-}
-#estore-categories ul.lev2 li span {
-	color: #000;
-	font-family: "Open Sans", sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	text-decoration: none;
-	display: block;
-	height: 35px;
-	background-image: url(images/lev2.png);
-	background-repeat: no-repeat;
-	background-position: left center;
-	line-height: 35px;
-	padding-left: 30px;
-	margin-left: 0px;
-}
-
-#estore-categories ul.lev3 {
-	list-style-type: none;
-	width: 282px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	color:#383d40;
-}
-#estore-categories ul.lev3 li {
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	margin: 0px;
-}
-#estore-categories ul.lev3 li a {
-	color: #383d40;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: normal;
-	text-decoration: none;
-	display: block;
-	height:25px;
-	line-height: 25px;
-	background-image: url(images/left_arrow.jpg);
-	background-repeat: no-repeat;
-	background-position: 20px center;
-	padding-left: 0px;
-	text-indent:30px;
-	margin-left: 0px;
-}
-#estore-categories ul.lev3 li a:hover {
-	background:url(images/left_arrow.jpg) no-repeat 20px center;  text-decoration:underline;
-}
-#estore-categories ul.lev3 li span {
-	color: #fb24a9;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	text-decoration: none;
-	display: block;
-	height:25px;
-	background-image: url(images/left_arrow.jpg);
-	background-repeat: no-repeat;
-	background-position: 20px center;
-	line-height: 25px;
-	padding-left: 35px;
-	margin-left: 0px;
-}
 
 /*---Left Column---<<END*/
 
@@ -537,7 +351,7 @@ table.gallery table.fixed div.time2 {padding-top: 9px !important;float: right;pa
 }
 }
 @media screen and (max-width:991px){
-#LeftPanel { width:95% !important; margin:0 2.5%; display:block;}
+#LeftPanel { width:95% !important; margin:0 2.5%; display: none;}
 #rightarea { width:95% !important; margin:10px 1.9%;}
 .stBadge-midContent { padding:10px !important;}
 .stBadge img { display:none !important;}
@@ -573,7 +387,7 @@ td#CentralArea div.fpcc {
 }
 @media screen and (max-width:700px){
 .grid td.gallery { display:block !important; width:100% !important;}
-#LeftPanel { float:left !important;}
+/*#LeftPanel { float:left !important;}*/
 
 }
 @media screen and (max-width: 500px){
