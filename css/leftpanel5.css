@@ -111,19 +111,16 @@ ESS Left column
 }
 #LeftPanel .lcat ul li a:hover,
 #LeftPanel .oc ul li a:hover {
-    text-decoration: none;
-    color: #dca87b;
+        text-decoration: none;
+    color: #1e2346;
 }
-
-
-	
-
 #LeftPanel .lcat ul li,#LeftPanel .lcat ul li span {
-       color: #000000;
+    color: #000000;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 31px;
     font-weight: normal;
+    text-indent: 24px;
 }
 #LeftPanel .lcat .cnt {
     display: none;
@@ -147,41 +144,26 @@ ESS Left column
     padding: 5px 10px;
 }
 #LeftPanel .lcat .lev1 li a {
-       color: #000000;
-    font-family: "Playfair Display"!important;
-    font-size: 20px;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 18px;
     line-height: 31px;
     font-weight: normal;
+    text-indent: 0px;
 }
 #LeftPanel .lcat .lev2 {} #LeftPanel .lcat .lev2 li {
         text-indent: 8px;
 }
 #LeftPanel .lcat .lev2 li a {
-        color: #000000;
+    color: #000000;
     font-size: 14px;
     font-weight: normal;
-    font-family: "Playfair Display"!important;
+    font-family: sans-serif;
     line-height: 17px;
+    text-indent: 10px;
+   
 }
 
-
-
-      #LeftPanel1{
-        width: 250px;
-
-      }
-      #LeftPanel1 ul {
-        list-style: none;
-        padding: 0px;
-            text-align: center;
-    padding-top: 11px;
-      }
-      #LeftPanel1 ul li{
-        display: inline-block;
-        padding: 9px;
-text-align: center;
-	      list-style-type:cjk-ideographic;
-      }
 @media(max-width: 768px) {
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
 	display: none !important;
