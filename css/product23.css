@@ -353,7 +353,7 @@ td#CentralArea div.fpcc {
     background: #1e2346;
    /* border: 1px solid #e3e3e3;*/
 }
-span #v4-8{
+td#CentralArea span#v4-8{
     display: none;
 }
 td#CentralArea {background: url(images/bg.png) repeat-y center top; float: left; padding:0px 0 10px 0px; width: 100%;
@@ -368,7 +368,7 @@ td#CentralArea div.r3_cm, .bp, .tp{ margin:0; padding:0; border:0;}
 td#CentralArea div.rs_box .cmpBr{ margin:0; padding:0; border:0; background:url(images/grid_bg.jpg) repeat-x center top; color:#323333; display:none;}
 td#CentralArea .ctrlbr span.pdmt .cur {color:#fff !important; font-size:12px; }
 span.pdmt .label {font:12px Arial; color:#fff !important;}
-td#CentralArea .ctrlbr{ margin:-29px 0 0 0; padding:6px 0px 0 6px; border:0; border-top:1px solid #e3e3e3;}
+td#CentralArea .ctrlbr{ /*margin:-29px 0 0 0;*/ padding:6px 0px 0 6px; border:0;/* border-top:1px solid #e3e3e3;*/}
 td#CentralArea div.fpcc .countClass{ color:#fff; }
 td#CentralArea div.rs_box{ border:0px solid #606060;}
 
