@@ -1,0 +1,186 @@
+#essHeaderContainer *,
+#cstm-home *,
+#ess-foot *,
+#LeftPanel *,
+td#CentralArea,
+td#CentralArea * {
+   
+}
+@media(max-width: 768px) {
+.pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
+	display: none !important;
+}
+	#LeftPanel td.v4title * {
+    display: block;
+}
+}
+.block-title,
+td#CentralArea div.fpcc,
+#LeftPanel td.v4title,
+td#CentralArea div.fpcc {
+    font-weight: bolder;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 0 12px;
+    margin: 0;
+    border: 0;
+}
+#LeftPanel .shop-catz td.v4title {} .block-title span,
+td#CentralArea div.fpcc div {
+    display: block;
+    font-size: 13px;
+}
+#LeftPanel td.v4title * {
+     font-weight: bolder;
+    color: #fff;
+    font-size: 18px!important;
+    display: block;
+    text-indent: 9px;
+        line-height: 35px;
+}
+td#CentralArea span.pdmt {
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+/*
+-----------------------------------------------------------------------------------
+ESS Left column
+-----------------------------------------------------------------------------------*/
+
+#LeftPanel {
+    width: 250px!important;
+    height: auto;
+	padding-top:30px;
+}
+
+#LeftPanel .v4acpcont {
+    margin: 0 0 15px;
+}
+#LeftPanel .v4midBox {
+    border: 0px solid #e6e6e6;
+    border-top: 0;
+    background: #fff;
+}
+#LeftPanel .v4mid {
+    padding: 0;
+    background: none;
+}
+#LeftPanel td.v4title * {
+  display: block;
+}
+#LeftPanel .v4nl {
+    padding: 10px;
+}
+#LeftPanel .v4accent,
+#LeftPanel .v4hspacer,
+#LeftPanel .v4baccent,
+#LeftPanel .v4vspacer {
+    width: 0px!important;
+    height: 0px!important;
+    background: none;
+}
+#LeftPanel .lcat {
+    font-size: 13px;
+    width: auto;
+}
+#LeftPanel .link br {
+    display: none;
+}
+#LeftPanel .lcat .ttl {
+    display: none;
+}
+#LeftPanel .lcat ul,
+#LeftPanel .oc ul,
+#LeftPanel .oc {
+    margin: 0;
+    padding: 0;
+}
+#LeftPanel .lcat ul li,
+#LeftPanel .oc ul li {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+   /* border-bottom: 1px solid #e6e6e6;*/
+}
+#LeftPanel .lcat ul li a,
+#LeftPanel .oc ul li a,
+#LeftPanel .lcat ul li span {
+    display: block;
+    font-weight: 600;
+    padding: 8px 10px;
+    padding-left: 20px;
+    font-size: 11px;
+    text-transform: none;
+}
+#LeftPanel .lcat ul li a:hover,
+#LeftPanel .oc ul li a:hover {
+    text-decoration: none;
+    color: #dca87b;
+}
+#LeftPanel .lcat ul li,#LeftPanel .lcat ul li span {
+   color: #000000;
+    font-family: "Playfair Display"!important;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: normal;
+}
+#LeftPanel .lcat .cnt {
+    display: none;
+    background: #eee;
+    padding: 0;
+    position: absolute;
+    right: 8px;
+    top: 30%;
+    color: #555;
+    font-weight: normal;
+    font-size: 10px;
+    width: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+#LeftPanel .lcat a.all_cats,
+#LeftPanel .link a {
+    text-decoration: none!important;
+    color: #40111e;
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+#LeftPanel .lcat .lev1 li a {
+       color: #000000;
+    font-family: "Playfair Display"!important;
+    font-size: 20px;
+    line-height: 31px;
+    font-weight: normal;
+}
+#LeftPanel .lcat .lev2 {} #LeftPanel .lcat .lev2 li {
+        text-indent: 8px;
+}
+#LeftPanel .lcat .lev2 li a {
+        color: #000000;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Playfair Display"!important;
+    line-height: 17px;
+}
+
+
+
+      #LeftPanel1{
+        width: 250px;
+
+      }
+      #LeftPanel1 ul {
+        list-style: none;
+        padding: 0px;
+            text-align: center;
+    padding-top: 11px;
+      }
+      #LeftPanel1 ul li{
+        display: inline-block;
+        padding: 9px;
+text-align: center;
+      }
