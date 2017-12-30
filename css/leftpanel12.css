@@ -167,9 +167,7 @@ ESS Left column
     text-indent: 0px;
   }
 
-  #LeftPanel .lcat .lev2 {}
-
-  #LeftPanel .lcat .lev2 li {
+  #LeftPanel .lcat .lev2 {}#LeftPanel .lcat .lev2 li {
     text-indent: 8px;
   }
 
@@ -181,6 +179,9 @@ ESS Left column
     line-height: 17px;
     text-indent: 10px;
 
+  }
+  #LeftPanel .lcat .lev3 {} #LeftPanel .lcat .lev3 li {
+    text-indent: 8px;
   }
 
   #LeftPanel .lcat .lev3 li a {
