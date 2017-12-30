@@ -133,6 +133,18 @@ ESS Left column
     font-size: 18px;
     line-height: 24px;
     font-weight: normal;
+     text-indent: 0px;
+    text-decoration: none;
+    background-image: url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Tyres/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 9px center;
+    text-indent: 24px;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    font-weight: normal;
+    transition: all 0.3s ease-out;
+    
 
   }
 
@@ -164,17 +176,7 @@ ESS Left column
     font-size: 18px;
     line-height: 31px;
     font-weight: normal;
-    text-indent: 0px;
-    text-decoration: none;
-    background-image: url("http://www.efusionworld.com/estore/foreverlux/store/images/cat-act.png");
-    background-repeat: no-repeat;
-    background-position: 9px center;
-    text-indent: 24px;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    font-weight: normal;
-    transition: all 0.3s ease-out;
+   
   }
 
   #LeftPanel .lcat .lev2 {}#LeftPanel .lcat .lev2 li {
@@ -188,17 +190,7 @@ ESS Left column
     font-family: sans-serif;
     line-height: 17px;
     text-indent: 10px;
-     text-indent: 0px;
-    text-decoration: none;
-    background-image: url("http://www.efusionworld.com/estore/foreverlux/store/images/cat-act.png");
-    background-repeat: no-repeat;
-    background-position: 9px center;
-    text-indent: 24px;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    font-weight: normal;
-    transition: all 0.3s ease-out;
+   
 
   }
  #LeftPanel .lcat .lev3 {} #LeftPanel .lcat .lev3 li {
@@ -212,17 +204,7 @@ ESS Left column
     line-height: 24px;
     font-weight: normal;
     text-indent: 21px;
-     text-indent: 0px;
-    text-decoration: none;
-    background-image: url("http://www.efusionworld.com/estore/foreverlux/store/images/cat-act.png");
-    background-repeat: no-repeat;
-    background-position: 9px center;
-    text-indent: 24px;
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    font-weight: normal;
-    transition: all 0.3s ease-out;
+   
   }
   @media(max-width: 768px) {
     .pagewidth .v4stabl,.pagewidth .ctrlbr .pdmt:first-child {
