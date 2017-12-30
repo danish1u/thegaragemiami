@@ -164,13 +164,13 @@ table.fixed img{
     padding-bottom: 0px;
     padding-left: 0px;
 }
-#LeftPanel * {   }
+/*#LeftPanel * {   }
 #LeftPanel img { border: 0px; }
 #LeftPanel .ttl { display: none !important; }
 #LeftPanel .cnt { display: none !important; }
 #LeftPanel .all_cats { display: none !important; }
 #LeftPanel .link { display: none !important; }
-#LeftPanel .v4acpcont { display: none !important; }
+/*#LeftPanel .v4acpcont { display: none !important; }*/
 
 #estore-cathead {
 	width: 282px;
@@ -348,10 +348,13 @@ width:100%;
 td#CentralArea div.fpcc {
     padding: 0 27px !important;
     display: block;
-    height: 63px;
+    height: 35px;
     line-height: 31px;
     background: #1e2346;
-    border: 1px solid #e3e3e3;
+   /* border: 1px solid #e3e3e3;*/
+}
+span #v4-8{
+    display: none;
 }
 td#CentralArea {background: url(images/bg.png) repeat-y center top; float: left; padding:0px 0 10px 0px; width: 100%;
 margin:0px 0 0 0;}
@@ -375,9 +378,9 @@ td#CentralArea div.fpcc span.keywordClass{ background-color:transparent; color:#
 td#CentralArea div.fpcc .matchClass, .countClass{ color:#fff; }
 td#CentralArea span.pdmt {
     display: block;
-    float: left;
-    padding-right: 13px;
-    padding-left: 16px;
+       display: block;
+    float: right;
+    margin-top: -27px;
 }
 
 td#CentralArea .ctrlbr span.pdmt:first-child .cur {background-position:0 0;width:134px; color:#fff;}
@@ -440,7 +443,7 @@ table#TopPromoArea table.v4acpcont{ margin:0px 0px 10px 0px; padding:0; border:0
 table#TopPromoArea td.v4topright table.v4acpcont{ margin-left:0px;}
 table#TopPromoArea table.v4acpcont table.v4acp{ margin:0; padding: 0px; border:0; width:952px; height:31px; line-height:31px;}
 table#TopPromoArea table.v4acpcont table.v4acp td.v4title{ margin:0; padding:0 10px; border:0; background:url(images/newarrival.jpg) no-repeat center top;}
-table#TopPromoArea table.v4acpcont table.v4acp td.v4title font, #LeftPanel table.v4acp tr.v4acp_head td.v4title font{ font-family:Arial; font-size:13px; font-weight:bold; color:#fff;}
+/*table#TopPromoArea table.v4acpcont table.v4acp td.v4title font, #LeftPanel table.v4acp tr.v4acp_head td.v4title font{ font-family:Arial; font-size:13px; font-weight:bold; color:#fff;}*/
 table#TopPromoArea table.v4acpcont table.v4acp td.v4vspacer, table#TopPromoArea table.v4acpcont table.v4acp td.v4baccent{ margin:0; padding:0; border:0; background:url(images/promo_mid_bg.gif) left top repeat-y; height:1px; }
 
 table#TopPromoArea td.v4topleft .v4nfc, table#TopPromoArea td.v4topright .v4nfc{ margin:0; padding:0; border:0; height:auto; background:url(images/promo_mid_bg.png) left top repeat-y;}
@@ -474,20 +477,21 @@ table#TopPromoArea table.v4midBox{ border:0; background:url(images/promo_mid_bg.
 .grid td.gallery { text-align:center;}
 #CentralArea td.gallery table.gallery {
     text-align: left;
-color: #000;
-height: auto;
-margin-left: 0px !important;
-display: inline-block;
-max-width: 270px !important;
-width: 100% !important;
-margin-bottom: 18px;
-border: 1px solid #e6e6e6;
-background: #fff;
-text-align: center;
+    color: #000;
+    height: auto;
+    margin-left: -27px !important;
+    display: inline-block;
+    max-width: 270px !important;
+    width: 100% !important;
+    margin-bottom: 18px;
+    border: 1px solid #e6e6e6;
+    background: #fff;
+    text-align: center;
+    margin-top: -20px;
 }
 #CentralArea td.gallery table.gallery tbody { display:block !important; width:100% !important;}
 #CentralArea td.gallery table.gallery tbody tr{ display:block !important; width:100% !important;}
-#CentralArea td.gallery table.gallery tbody tr td.picture {margin:0; padding:17px 0px 0px 0px !important; border:0; display:block !important; width:100% !important;height: 225px;text-align:center; }
+#CentralArea td.gallery table.gallery tbody tr td.picture {margin:0; padding:26px 0px 0px 0px !important; border:0; display:block !important; width:100% !important;height: 225px;text-align:center; }
 #CentralArea td.gallery table.gallery tbody tr td.picture img { transition:0.3s all ease;}
 #CentralArea td.gallery table.gallery tbody tr td.picture:hover img { opacity:0.7;}
 td.details {
