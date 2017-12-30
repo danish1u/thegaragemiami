@@ -316,8 +316,8 @@ td.details {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     background: #f9f9f9;
-		height: auto;
-	text-align: center;
+    height: auto;
+    text-align: center;
 }
 .basics { margin-top: 10px; display: block;float: left;margin-right: 42px;}
 .basics .label{ font-size:12px !important; margin-right:2px; padding:0 !important; color:#000 !important; font-weight:normal !important;}
@@ -325,19 +325,15 @@ table.gallery table.fixed div.time2 {padding-top: 9px !important;float: right;pa
 .time2 .label{ font-size:12px !important; margin-right:2px; padding:0 !important; color:#000 !important; font-weight:normal !important;}
 .r form.form input[type="submit"]{ color:#000;}
 #gh-la img { max-width:none;}
-
-
-
 @media screen and (max-width:1200px){
 .estore-content {
 	max-width: 942px;
 	background:url(../images/white-bg-1.jpg) repeat-y top center;
 }
 
-
 #CentralArea td.gallery table.gallery {
     max-width: 270px !important;
-	margin-left: -11px !important;
+    margin-left: -11px !important;
 }
 #estore-categories ul.lev1 {
     width: 100% !important;
@@ -352,7 +348,7 @@ table.gallery table.fixed div.time2 {padding-top: 9px !important;float: right;pa
 }
 @media screen and (max-width:991px){
 #LeftPanel { width:95% !important; margin:0 2.5%; display: none;}
-#rightarea { width:95% !important; margin:10px 1.9%;}
+#rightarea { width:96% !important; margin:10px 1.9%;}
 .stBadge-midContent { padding:10px !important;}
 .stBadge img { display:none !important;}
 .stBadge .stBadge-accent { display:none !important;}
@@ -386,9 +382,13 @@ td#CentralArea div.fpcc {
 	}
 }
 @media screen and (max-width:700px){
-.grid td.gallery { display:block !important; width:100% !important;}
+.grid td.gallery { 
+	display:block !important; width:100% !important;
+	}
 /*#LeftPanel { float:left !important;}*/
-
+	td#CentralArea span.pdmt{
+	    display: none !important;
+	}
 }
 @media screen and (max-width: 500px){
 .dynpg td { /*display:inline;*/width: 100%;text-align: left;}
