@@ -113,6 +113,8 @@ ESS Left column
 #LeftPanel .oc ul li a:hover {
         text-decoration: none;
     color: #1e2346;
+	transition: all 0.7s;
+    margin: 0px 0 0px 4px;
 }
 #LeftPanel .lcat ul li,#LeftPanel .lcat  ul li span {
         color: #000000;
@@ -170,7 +172,7 @@ ESS Left column
     font-size: 14px;
     line-height: 31px;
     font-weight: normal;
-    text-indent: 24px;
+    text-indent: 21px;
 }
 @media(max-width: 768px) {
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
