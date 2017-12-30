@@ -114,10 +114,10 @@ ESS Left column
         text-decoration: none;
     color: #1e2346;
 }
-#LeftPanel .lcat ul li,#LeftPanel .lcat .lev3 ul li span {
-    color: #000000;
+#LeftPanel .lcat ul li,#LeftPanel .lcat  ul li span {
+        color: #000000;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 21px;
     line-height: 31px;
     font-weight: normal;
     text-indent: 24px;
@@ -151,7 +151,8 @@ ESS Left column
     font-weight: normal;
     text-indent: 0px;
 }
-#LeftPanel .lcat .lev2 {} #LeftPanel .lcat .lev2 li {
+#LeftPanel .lcat .lev2 {}
+#LeftPanel .lcat .lev2 li {
         text-indent: 8px;
 }
 #LeftPanel .lcat .lev2 li a {
@@ -163,7 +164,14 @@ ESS Left column
     text-indent: 10px;
    
 }
-
+#LeftPanel .lcat .lev3 li span {
+      color: #000000;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 31px;
+    font-weight: normal;
+    text-indent: 24px;
+}
 @media(max-width: 768px) {
 .pagewidth .v4stabl, .pagewidth .ctrlbr .pdmt:first-child {
 	display: none !important;
