@@ -127,7 +127,7 @@ ESS Left column
     margin: 0px 0 0px 4px;
   }
 
-  #LeftPanel .lcat ul li,#LeftPanel .lcat ul li span {
+  #LeftPanel .lcat lev1 li {
     color: #000000;
     font-family: sans-serif;
     font-size: 16px;
