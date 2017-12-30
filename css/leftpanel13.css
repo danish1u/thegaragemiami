@@ -180,18 +180,7 @@ ESS Left column
     text-indent: 10px;
 
   }
-  #LeftPanel .lcat .lev3 {} #LeftPanel .lcat .lev3 li {
-    text-indent: 8px;
-  }
-
-  #LeftPanel .lcat .lev3 li a {
-    color: #000000;
-    font-family: sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: normal;
-    text-indent: 21px;
-  }
+ 
 
   @media(max-width: 768px) {
     .pagewidth .v4stabl,.pagewidth .ctrlbr .pdmt:first-child {
