@@ -195,7 +195,7 @@ ESS Left column
     text-indent: 4px;
     background-image: url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Tyres/line3.png");
     display: block;
-    background-position: 14px center;
+    background-position: 8px center;
   }
 
   #LeftPanel .lcat .lev3 li a {
@@ -204,8 +204,7 @@ ESS Left column
     font-size: 12px;
     line-height: 24px;
     font-weight: normal;
-    text-indent: 11px;
- 
+    
   }
   @media(max-width: 768px) {
     .pagewidth .v4stabl,.pagewidth .ctrlbr .pdmt:first-child {
