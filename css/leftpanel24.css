@@ -116,7 +116,7 @@ ESS Left column
     font-weight: 600;
     padding: 8px 10px;
     padding-left: 20px;
-    font-size: 11px;
+    font-size: 14px;
     text-transform: none;
   }
 
@@ -184,6 +184,7 @@ ESS Left column
     font-family: sans-serif;
     line-height: 17px;
     text-indent: 10px;
+     background-image:none;
   }
  #LeftPanel .lcat .lev3 {} #LeftPanel .lcat .lev3 li {
     text-indent: 8px;
@@ -196,6 +197,7 @@ ESS Left column
     line-height: 24px;
     font-weight: normal;
     text-indent: 21px;
+    background-image:none;
   }
   @media(max-width: 768px) {
     .pagewidth .v4stabl,.pagewidth .ctrlbr .pdmt:first-child {
