@@ -166,7 +166,7 @@ ESS Left column
   #LeftPanel .lcat .lev1 li a {
     color: #000000;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 31px;
     font-weight: normal;
     text-indent: 0px;
@@ -174,18 +174,18 @@ ESS Left column
   }
 
   #LeftPanel .lcat .lev2 {}#LeftPanel .lcat .lev2 li {
-    text-indent: 8px;
+    text-indent: 2px;
         background-image: none;
     display: block
   }
 
   #LeftPanel .lcat .lev2 li a {
     color: #000000;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: normal;
     font-family: sans-serif;
     line-height: 17px;
-    text-indent: 10px;
+   
    
   }
  #LeftPanel .lcat .lev3 {} #LeftPanel .lcat .lev3 li {
@@ -197,10 +197,10 @@ ESS Left column
   #LeftPanel .lcat .lev3 li a {
     color: #000000;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 24px;
     font-weight: normal;
-    text-indent: 21px;
+    text-indent: 11px;
  
   }
   @media(max-width: 768px) {
