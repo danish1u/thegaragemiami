@@ -179,7 +179,7 @@ ESS Left column
     text-indent: 2px;
         background-image: url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Tyres/Circle2.png");
     display: block;
-      background-position: 16px center;
+      
   }
 
   #LeftPanel .lcat .lev2 li a {
@@ -193,8 +193,9 @@ ESS Left column
   }
  #LeftPanel .lcat .lev3 {} #LeftPanel .lcat .lev3 li {
     text-indent: 8px;
-       background-image: url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Tyres/Circle2.png");
-    display: block
+    background-image: url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Tyres/Circle2.png");
+    display: block;
+    background-position: 16px center;
   }
 
   #LeftPanel .lcat .lev3 li a {
