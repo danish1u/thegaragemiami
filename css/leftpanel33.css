@@ -192,10 +192,10 @@ ESS Left column
    
   }
  #LeftPanel .lcat .lev3 {} #LeftPanel .lcat .lev3 li {
-    text-indent: 8px;
+    text-indent: 4px;
     background-image: url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Tyres/line3.png");
     display: block;
-    background-position: 16px center;
+    background-position: 14px center;
   }
 
   #LeftPanel .lcat .lev3 li a {
