@@ -112,11 +112,11 @@ ESS Left column
   }
 
   #LeftPanel .lcat ul li a,#LeftPanel .oc ul li a,#LeftPanel .lcat ul li span {
-    display: block;
-    font-weight: 600;
+     display: block;
+    font-weight: 500;
     padding: 8px 10px;
     padding-left: 20px;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: none;
   }
 
