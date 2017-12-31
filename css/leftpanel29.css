@@ -158,9 +158,11 @@ ESS Left column
 
   #LeftPanel .lcat a.all_cats,#LeftPanel .link a {
     text-decoration: none!important;
-    color: #40111e;
+    color: #000000;
     margin: 5px 0;
     padding: 5px 10px;
+    font-size: 14px;
+    font-style: normal;
   }
 
   #LeftPanel .lcat .lev1 li a {
