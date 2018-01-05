@@ -16,7 +16,274 @@
   .srch-btn1 {
     display: none;
   }
+  section #services h2 {
+    color: #fff;
+    font-size: 2.4em;
+    font-family: 'Raleway Dots', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  section #services li {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 7px;
+    list-style: none;
+    margin-right: 7px;
+    margin-left: 1px;
+  }
+  section #services li i {
+    width: 30px;
+    height: 30px;
+    color: #000000;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    transition: all 0.5s ease;
+  }
+  section #services li i:hover {
+    transform: rotate(360deg);
+    border-radius: 100px;
+    background-color: #242847;
+    color: #fff;
+  }
+  section #services li span {
+    width: 90px;
+    height: 90px;
+    display: block;
+    padding: 15px 0px;
+    color: #fff;
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    text-align: center;
+  }
+  /*Strip the ul of padding and list styling*/
+  #navbar .navbar-nav li a {
+    padding: 16px 35.1px !important;
+  }
+  .shipping-icon {
+    margin: 10px 20px 0 0;
+  }
+  .shipping-icon img {
+    margin: 0px 26px 0 0;
+  }
+  .shipping-icon img:hover {
+    transition: all 0.9s;
+    margin: -15px 0px 0px 0;
+    cursor: pointer;
+  }
+  .none {
+    display: inline-block;
+    max-width: 170px !important;
+  }
+  #pst-header {
+    display: none;
+  }
+  #menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu1 {
+    display: inline-block;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px
+  }
 
+  /*Create a horizontal list with spacing*/
+  /*Style for menu links*/
+  .menu1 a {
+    display: block;
+    min-width: 100px;
+    text-align: center;
+    padding-right: 17px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    padding-left: 26px;
+    padding-right: 40px !important;
+  }
+  .stor2 {
+    display: none;
+    float: left;
+    margin-right: 1px;
+  }
+  .stor2 {
+    display: none;
+    min-width: 100px;
+    text-align: center;
+    padding-right: 17px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    margin-left: 26px;
+  }
+  .stor1 {
+    display: none;
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px
+  }
+  .stor1 a {
+    display: none;
+    min-width: 100px;
+    text-align: center;
+    padding-right: 17px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    padding-left: 12px;
+  }
+  /*Hover state for top level links*/
+  .menu1:hover a {
+    background: #242847 !important;
+  }
+  .stor2:hover a span {
+    background: #242847 !important;
+  }
+  .stor1:hover a {
+    background: #242847 !important;
+  }
+  /*Style 'show menu' label button and hide it by default*/
+  .show-menu1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #000;
+    background: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    display: none;
+    border-bottom: 1px solid #000;
+  }
+  /*Hide checkbox*/
+  #show-menu[type=checkbox] {
+    display: none;
+  }
+  /*Show menu when invisible checkbox is checked*/
+  #show-menu[type=checkbox]:checked~#menu {
+    display: block;
+  }
+  /*Hide checkbox*/
+  #show-menu1[type=checkbox] {
+    display: none;
+  }
+  /*Show menu when invisible checkbox is checked*/
+  #show-menu1[type=checkbox]:checked~#menu {
+    display: block;
+  }
+  /*-------menu and------*/
+  .img1go {
+    float: left;
+  }
+  .carousel-inner>.item>a>img,
+  .carousel-inner>.item>img,
+  .img-responsive,
+  .thumbnail a>img,
+  .thumbnail>img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+  }
+  .specifications h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+  }
+  .title {
+    text-align: center;
+    margin-top: 13px;
+    background: #383838;
+    padding: 2px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .title h3 {
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .description1 {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-top: -1px;
+  }
+
+  .cations {
+    margin-top: 34px;
+  }
+
+  .specifications {
+    border-bottom: 4px solid #ffffff;
+    z-index: 99999;
+    width: 215px;
+    padding: 2px;
+    margin-left: 0px;
+    border-left: 1px solid #eee;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    margin-top: 25px;
+    position: relative;
+
+  }
+    /*Responsive Styles*/
+    @media screen and (max-width: 1024px) {
+      #cssmenu,
+      #cssmenu ul,
+      #cssmenu ul li,
+      #cssmenu ul li a,
+      #cssmenu #menu-button,
+      .pst-menu nav li {
+        margin-left: 0px !important;
+      }
+      #navbar .navbar-nav li a {
+        font-size: 13px;
+        padding: 16px 27.1px !important;
+      }
+      .menu1 {
+        margin-right: -5px;
+        !important;
+      }
+      .none {
+        display: inline-block;
+        width: 160px !important;
+      }
+      .none2 {
+        display: inline-block;
+      }
+      .img1go {
+        margin-left: 10px;
+        float: left;
+      }
+      .shipping-icon img {
+        margin: 0 0 0 0;
+        width: 186px;
+      }
+    }
   @media screen and (max-width: 768px) {
     .navbar-nav {
       margin: 0px 0px !important;
@@ -37,268 +304,6 @@
     .logo {
       padding-top: 20px;
     }
-  }
-
-  @media screen and (max-width: 650px) {
-    section #services {
-      text-align: center;
-      padding-left: 10px;
-      margin: 0px;
-      transform: translatez(0);
-    }
-    .topnavcont {
-      margin: 0px 0;
-    }
-  }
-
-  section #services h2 {
-    color: #fff;
-    font-size: 2.4em;
-    font-family: 'Raleway Dots', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  section #services li {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin: 7px;
-    list-style: none;
-    margin-right: 7px;
-    margin-left: 1px;
-  }
-
-  section #services li i {
-    width: 30px;
-    height: 30px;
-    color: #000000;
-    font-size: 1.2em;
-    text-align: center;
-    line-height: 30px;
-    background-color: #fff;
-    transition: all 0.5s ease;
-  }
-
-  section #services li i:hover {
-    transform: rotate(360deg);
-    border-radius: 100px;
-    background-color: #242847;
-    color: #fff;
-  }
-
-  section #services li span {
-    width: 90px;
-    height: 90px;
-    display: block;
-    padding: 15px 0px;
-    color: #fff;
-    font-family: 'Advent Pro', sans-serif;
-    text-transform: uppercase;
-    font-size: 1.2em;
-    text-align: center;
-  }
-
-  /*Strip the ul of padding and list styling*/
-
-  #navbar .navbar-nav li a {
-    padding: 16px 35.1px !important;
-  }
-
-  .shipping-icon {
-    margin: 10px 20px 0 0;
-
-  }
-
-  .shipping-icon img {
-    margin: 0px 26px 0 0;
-
-  }
-
-  .shipping-icon img:hover {
-    transition: all 0.9s;
-    margin: -15px 0px 0px 0;
-    cursor: pointer;
-  }
-
-  .none {
-    display: inline-block;
-    max-width: 170px !important;
-
-  }
-
-  #pst-header {
-    display: none;
-  }
-
-  @media screen and (max-width: 1024px) {
-    #cssmenu,
-    #cssmenu ul,
-    #cssmenu ul li,
-    #cssmenu ul li a,
-    #cssmenu #menu-button,
-    .pst-menu nav li {
-      margin-left: 0px !important;
-    }
-  }
-
-  #menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  /*Create a horizontal list with spacing*/
-
-  .menu1 {
-    display: inline-block;
-    float: left;
-    margin-right: 1px;
-    margin-bottom: 1px
-  }
-
-  @media screen and (max-width: 1024px) {
-    #navbar .navbar-nav li a {
-      font-size: 13px;
-              padding: 16px 27.1px !important;
-    }
-
-    .menu1 {
-      margin-right: -5px;
-      !important;
-    }
-    .none {
-      display: inline-block;
-      width: 160px !important;
-    }
-    .none2 {
-      display: inline-block;
-
-
-    }
-  }
-
-  /*Style for menu links*/
-
-  .menu1 a {
-    display: block;
-    min-width: 100px;
-    text-align: center;
-    padding-right: 17px;
-    font-size: 14px;
-    text-decoration: none;
-    color: #000000;
-    height: 40px;
-    line-height: 40px;
-    font-weight: 700;
-    position: relative;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    padding-left: 26px;
-    padding-right: 40px !important;
-  }
-
-  .stor2 {
-    display: none;
-    float: left;
-    margin-right: 1px;
-  }
-
-  .stor2 {
-    display: none;
-    min-width: 100px;
-    text-align: center;
-    padding-right: 17px;
-    font-size: 14px;
-    text-decoration: none;
-    color: #000000;
-    height: 40px;
-    line-height: 40px;
-    font-weight: 700;
-    position: relative;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    margin-left: 26px;
-  }
-
-  .stor1 {
-    display: none;
-    float: left;
-    margin-right: 1px;
-    margin-bottom: 1px
-  }
-
-  .stor1 a {
-    display: none;
-    min-width: 100px;
-    text-align: center;
-    padding-right: 17px;
-    font-size: 14px;
-    text-decoration: none;
-    color: #000000;
-    height: 40px;
-    line-height: 40px;
-    font-weight: 700;
-    position: relative;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    padding-left: 12px;
-  }
-
-  /*Hover state for top level links*/
-
-  .menu1:hover a {
-    background: #242847 !important;
-  }
-
-  .stor2:hover a span {
-    background: #242847 !important;
-  }
-
-  .stor1:hover a {
-    background: #242847 !important;
-  }
-
-  /*Style 'show menu' label button and hide it by default*/
-
-  .show-menu1 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-decoration: none;
-    color: #000;
-    background: #ffffff;
-    text-align: center;
-    padding: 10px 0;
-    display: none;
-    border-bottom: 1px solid #000;
-  }
-
-  /*Hide checkbox*/
-
-  #show-menu[type=checkbox] {
-    display: none;
-  }
-
-  /*Show menu when invisible checkbox is checked*/
-
-  #show-menu[type=checkbox]:checked~#menu {
-    display: block;
-  }
-
-  /*Hide checkbox*/
-
-  #show-menu1[type=checkbox] {
-    display: none;
-  }
-
-  /*Show menu when invisible checkbox is checked*/
-
-  #show-menu1[type=checkbox]:checked~#menu {
-    display: block;
-  }
-
-  /*Responsive Styles*/
-
-  @media screen and (max-width: 768px) {
     .none {
       display: inline-block;
       max-width: 126px !important;
@@ -358,9 +363,6 @@
       text-transform: uppercase;
       transition: all 0.6s ease
     }
-  }
-
-  @media screen and (max-width: 768px) {
     .show-menu1 {
       display: block;
       width: 100%;
@@ -368,8 +370,55 @@
       position: relative;
       margin-top: 29px;
     }
+    .search {
+      background: #FFFFFF;
+      float: left;
+      width: 100%;
+      /* display: none; */
+      border: 1px solid #eee;
+    }
+    .shipping-icon img {
+      margin: 0 0 0 0;
+      width: 139px;
+    }
+    .shipping-icon {
+      display: block;
+    }
+    .carousel-inner>.item>a>img,
+    .carousel-inner>.item>img,
+    .img-responsive,
+    .thumbnail a>img,
+    .thumbnail>img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+    }
+  .description1 {
+        border: 1px solid #eee;
+        padding: 15px;
+        margin-top: -3px;
+      }
   }
-
+  @media screen and (max-width: 732px) {
+    .shipping-icon {
+      display: none;
+    }
+    .shipping-icon img {
+      margin: 20px 0 0 0;
+      width: 50%;
+          display: none;
+    }
+    .none {
+      display: inline-block;
+      max-width: 50% !important;
+    }
+    .headerbg {
+      display: none;
+    }
+    .toptext {
+      display: none;
+    }
+  }
   @media screen and (max-width: 760px) {
     /*Make dropdown links appear inline*/
     #pst-header {
@@ -426,9 +475,6 @@
       padding-left: 20px;
       color: #fff;
     }
-  }
-
-  @media screen and (max-width: 760px) {
     .show-menu1:hover {
       color: #fff;
       background: #343535 !important;
@@ -437,79 +483,17 @@
     .col-md-12 {
       padding-left: 0px;
     }
-  }
-
-  /*-------menu and------*/
-
-  .img1go {
-    float: left;
-  }
-
-  .carousel-inner>.item>a>img,
-  .carousel-inner>.item>img,
-  .img-responsive,
-  .thumbnail a>img,
-  .thumbnail>img {
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
-  }
-
-  @media screen and (max-width: 1024px) {
-    .img1go {
-      margin-left: 10px;
-      float: left;
-    }
-    .shipping-icon img {
-      margin: 0 0 0 0;
-      width: 186px;
-    }
-  }
-
-  @media screen and (max-width: 768px) {
-    .search {
-      background: #FFFFFF;
-      float: left;
-      width: 100%;
-      /* display: none; */
-      border: 1px solid #eee;
-    }
-    .shipping-icon img {
-      margin: 0 0 0 0;
-      width: 139px;
-    }
-    .shipping-icon {
-      display: block;
-    }
-    .carousel-inner>.item>a>img,
-    .carousel-inner>.item>img,
-    .img-responsive,
-    .thumbnail a>img,
-    .thumbnail>img {
-      display: inline-block;
-      max-width: 100%;
-      height: auto;
-    }
-  }
-
-  @media screen and (max-width: 760px) {
     .top-row {
       height: 44px;
       border-bottom: none !important;
       background: none !important;
     }
-  }
-
-  @media screen and (max-width: 760px) {
     .pst-top-nav {
       float: none;
       height: 44px;
       line-height: 44px;
       text-align: center;
     }
-  }
-
-  @media screen and (max-width: 760px) {
     .pst-top-nav a {
       text-decoration: none;
       font-size: 20px;
@@ -520,78 +504,6 @@
     .shipping-icon {
       display: inline-block;
     }
-  }
-
-  @media screen and (max-width: 732px) {
-    .shipping-icon {
-      display: none;
-    }
-    .shipping-icon img {
-      margin: 20px 0 0 0;
-      width: 50%;
-    }
-    .none {
-      display: inline-block;
-      max-width: 50% !important;
-    }
-    .headerbg {
-      display: none;
-    }
-    .toptext {
-      display: none;
-    }
-  }
-
-  .title {
-    text-align: center;
-    margin-top: 13px;
-    background: #383838;
-    padding: 2px;
-    display: inline-block;
-    width: 100%;
-  }
-
-  .title h3 {
-    font-size: 20px;
-    line-height: 23px;
-    color: #fff;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-
-  .description1 {
-    border: 1px solid #eee;
-    padding: 15px;
-    margin-top: -1px;
-  }
-
-  .cations {
-    margin-top: 34px;
-  }
-
-  .specifications {
-    border-bottom: 4px solid #ffffff;
-    z-index: 99999;
-    width: 215px;
-    padding: 2px;
-    margin-left: 0px;
-    border-left: 1px solid #eee;
-    border-top: 1px solid #eee;
-    border-right: 1px solid #eee;
-    margin-top: 25px;
-    position: relative;
-
-  }
-
-  @media screen and (max-width: 768px) {
-    .description1 {
-      border: 1px solid #eee;
-      padding: 15px;
-      margin-top: -3px;
-    }
-  }
-
-  @media screen and (max-width: 760px) {
     .specifications {
       border-bottom: 2px solid #ffffff;
       z-index: 99999;
@@ -607,10 +519,14 @@
 
     }
   }
-
-  .specifications h2 {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-left: 4px;
+  @media screen and (max-width: 650px) {
+    section #services {
+      text-align: center;
+      padding-left: 10px;
+      margin: 0px;
+      transform: translatez(0);
+    }
+    .topnavcont {
+      margin: 0px 0;
+    }
   }
-
