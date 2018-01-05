@@ -1,0 +1,233 @@
+/*----------listing area start----------*/
+.listing-area {
+	margin: 15px 0 26px;
+	padding: 15px 20px 20px;
+	border: 1px solid #e4e4e4;
+	background-color: #FFFFFF;
+}
+/*---------gal-desc-part start------*/
+.gal-desc-part {
+}
+.gal-container {
+	padding: 0;
+	height: auto;
+	overflow: hidden;
+}
+.gallery-box {
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+.slider {
+	width: 100%;
+	position: relative;
+	padding-top: 510px;
+	margin: 0 auto;
+}
+.slider>img {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	transition: all 0.5s;
+}
+.slider input[name='slide_switch'] {
+	display: none;
+}
+.slider label {
+	margin: 15px 12px 0 0;
+	border: 1px solid #e4e4e4;
+	float: left;
+	cursor: pointer;
+	transition: all 0.5s;
+	opacity: 0.6;
+	text-align: center;
+	width: 95px;
+	height: 95px;
+	padding: 5px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider label.first {
+}
+.slider label img {
+	max-height: 85px;
+	max-width: 85px;
+	width: auto;
+	display: inline-block;
+}
+.slider input[name='slide_switch']:checked+label {
+	opacity: 1;
+	border: 1px solid #bd6887;
+}
+.slider input[name='slide_switch'] ~ img {
+	opacity: 0;
+	transform: scale(1);
+	max-height: 500px;
+	width: auto;
+	max-width: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.slider input[name='slide_switch']:checked+label+img {
+	opacity: 1;
+	transform: scale(1);
+}
+/*---------gal-desc-part end------*/
+
+.pst-listing-title {
+	font-family: 'Open Sans', sans-serif !Important;
+	width: 100%;
+	height: auto;
+	padding: 10px 5px 15px 0;
+	text-align: left;
+	font-size: 1.38em;
+	color: #000000;
+	font-weight: normal;
+	border-bottom: 5px solid #bd6887;
+}
+.desc-box {
+	font-family: 'Open Sans', sans-serif !Important;
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 0;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+.desc-box img {
+	max-width: 90%;
+	width: auto !important;
+	height: auto !important;
+	display: inline-block;
+}
+.text-regullar {
+	font-family: 'Open Sans', sans-serif !Important;
+	width: 100%;
+	font-size: 15px;
+	line-height: 22px;
+	color: #6d6d71;
+	text-align: left;
+	margin: 0px auto;
+	padding: 3% 0;
+}
+.text-regullar p {
+	margin-bottom: 0;
+}
+.text-regullar strong {
+	font-weight: bold;
+	color: #bd6887;
+}
+.text-regullar ul {
+	list-style: outside;
+	margin-left: 1.5%;
+}
+.text-regullar a {
+	color: #000000;
+	text-decoration: underline;
+}
+.text-regullar a:hover {
+	color: #6d6d71;
+}
+/*---------description end------*/
+/*---------tab start------*/
+.pst-tab {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: 23px;
+	font-family: 'Open Sans', sans-serif !Important;
+}
+.pst-tab label {
+	-webkit-box-ordinal-group: 2;
+	-webkit-order: 1;
+	-ms-flex-order: 1;
+	order: 1;
+	display: block;
+	padding: 13px 15px;
+	margin-right: 4px;
+	margin-bottom: 0px;
+	font-size: 1.12em;
+	cursor: pointer;
+	color: #000000;
+	text-align: center;
+	min-width: 188px;
+	font-weight: normal;
+	-webkit-transition: background ease 0.2s;
+	transition: background ease 0.2s;
+	position: relative;
+	left: -52px;
+	border: 1px solid #e4e4e4;
+	font-family: 'Open Sans', sans-serif !Important;
+}
+.pst-tab .tab {
+	-webkit-box-ordinal-group: 100;
+	-webkit-order: 99;
+	-ms-flex-order: 99;
+	order: 99;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	width: 100%;
+	display: none;
+	padding: 15px 2%;
+	background: #fff;
+	border: 1px solid #e4e4e4;
+	font-size: 15px;
+	line-height: 24px;
+	color: #6d6d71;
+	text-align: left;
+	position: relative;
+	font-family: 'Open Sans', sans-serif !Important;
+}
+.pst-tab .tab p {
+	margin-bottom: 0;
+}
+.pst-tab .tab strong {
+	font-weight: 700;
+}
+.pst-tab .tab ul {
+	list-style: outside;
+	margin-left: 2%;
+}
+.pst-tab .tab p {
+	position: relative;
+	margin-bottom: 0;
+}
+.pst-tab .tab a {
+	color: #bd6887 !important;
+	transition: 0.3s all ease-in-out;
+}
+.pst-tab .tab a:hover {
+	color: #000000 !important;
+	transition: 0.3s all ease-in-out;
+}
+.pst-tab input[type="radio"] {
+	position: relative;
+	opacity: 0;
+}
+.pst-tab label:hover {
+	color: #bd6887;
+	border-bottom: 1px solid #ffffff;
+	z-index: 1111;
+}
+.pst-tab input[type="radio"]:checked + label {
+	color: #bd6887;
+	border-bottom: 1px solid #ffffff;
+	z-index: 1111;
+}
+.pst-tab input[type="radio"]:checked + label + .tab {
+	display: block;
+	margin-top: -1px;
+}
+/*---------tab end------*/
