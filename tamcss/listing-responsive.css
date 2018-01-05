@@ -1,0 +1,298 @@
+
+@media screen and (max-width: 1200px) {
+.pst-tab label {
+	padding: 10px 0px;
+	min-width: 160px;
+	font-size: 14px;
+}
+.promo-box br {
+	display: none;
+}
+.massage{
+	margin-top:2%;
+}
+.massage span.pink {
+	font-size: 1.5em;
+}
+.massage span.gray {
+	font-size: 1.2em;
+}
+.cat-box {
+	min-height: 220px;
+	max-height: 220px;
+	display: inline-flex;
+}
+.cat-box .cat-img {
+	display: flex;
+}
+.cat-box:first-child {
+	width: 63%;
+	margin-right: 25px;
+}
+.cat-box:last-child {
+	width: 34%;
+	float: right;
+}
+}
+
+@media screen and (max-width: 991px) {
+.pst-tab label {
+	padding: 10px 16px;
+	min-width: 120px;
+	font-size: 14px;
+}
+.slider {
+	padding-top: 100%;
+}
+.gal-container {
+	height: auto;
+}
+.pst-tab .tab ul {
+	list-style: outside;
+	margin-left: 6%;
+}
+.pst-listing-title, .desc-title {
+	font-size: 14px;
+}
+.promo-box span {
+	font-size: 13px;
+}
+.massage{
+	margin-top:7%;
+}
+.massage span.pink {
+	font-size: 1.2em;
+}
+.massage span.gray {
+	font-size: 1.1em;
+}
+.massage p {
+	font-size: 12px;
+}
+.massage h6 {
+	font-size: 13px;
+}
+.cat-box:first-child {
+	width: 65%;
+	margin-right: 15px;
+}
+.cat-box:last-child {
+	width: 32%;
+}
+}
+
+@media screen and (max-width: 767px) {
+body {
+	font-size: 90%;
+}
+img{
+	width:auto;
+	max-width:100%;	
+}
+.container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.visible-desktop {
+	display: none
+}
+.pst-logo {
+	text-align: center;
+	text-indent: 0px;
+}
+.pst-logo img {
+	width: auto;
+}
+.pst-logo:hover {
+	margin: 15px 0;
+}
+.gal-container {
+	margin-bottom: 15px;
+	height: auto;
+	overflow: hidden;
+	padding: 15px 0;
+}
+.slider {
+	width: 100%;
+	padding-top: 50%;
+}
+.slider>img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	text-align: center;
+}
+.slider input[name="slide_switch"] ~ img {
+	max-height: 250px;
+}
+.slider label img {
+	max-width: 90%;
+}
+.pst-listing-title {
+	padding: 10px 0;
+	text-indent: 0px;
+	font-size: 16px;
+}
+.text-regullar {
+	padding: 2%;
+}
+.desc-title {
+	padding: 0 10px;
+	text-indent: 0px;
+	font-size: 14px;
+	height: 40px;
+	line-height: 40px;
+}
+.text-regullar, .tab-txt, .pst-tab section {
+	font-size: 13px;
+}
+.short-text-regullar {
+	padding: 0;
+	font-size: 13px;
+}
+.pst-tab .tab, .pst-tab label {
+	-webkit-box-ordinal-group: NaN;
+	-webkit-order: initial;
+	-ms-flex-order: initial;
+	order: initial;
+}
+.pst-tab label {
+	width: 100%;
+	margin-right: 0;
+	margin-top: 0.2rem;
+	font-size: 16px;
+	text-align: center;
+	position: inherit;
+}
+.slider label {
+	width: 90px;
+	height: 90px;
+	margin: 15px 10px 0 0;
+}
+.gal-container {
+	height: auto;
+	margin-bottom: 0px;
+}
+.short-d-title {
+	font-size: 1em;
+	margin-top: 0px;
+}
+.short-desc-container {
+	padding: 0;
+}
+.pst-tab input[type="radio"] {
+	position: absolute;
+}
+.col {
+	margin: 1% 0 1% 0%;
+}
+.span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 {
+	width: 100%;
+}
+.custom-head {
+	margin: 25px 0 15px;
+}
+.promo {
+	margin: 25px 0;
+}
+.about-head {
+	font-size: 14px;
+	margin: 20px 0 15px;
+}
+.promo {
+	box-shadow: 0 0 0 0;
+}
+.pst-footer {
+	margin-top: 20px;
+	padding-top: 15px;
+}
+.pst-copyright {
+	margin-bottom: 20px;
+}
+.promo-box br {
+	display: block;
+}
+.massage {
+	padding-left: inherit;
+	margin-bottom: 15px;
+	text-align: center;
+}
+.massage span.pink {
+	font-size: 1.8em;
+}
+.massage span.gray {
+	font-size: 1.6em;
+}
+.massage p {
+	font-size: 13px;
+}
+.massage h6 {
+	font-size: 15px;
+}
+.listing-area {
+	padding: 10px 7px;
+}
+.pst-cat {
+	margin: 20px 0 0;
+}
+.cat-box:first-child {
+	margin: 0 0 15px 0;
+	width:100%;
+}
+.cat-box:last-child {
+	width: 100%;
+}
+.cat-box {
+	width: 100%;
+	display: inline-block;
+	min-height: auto !important;
+	max-height: inherit;
+}
+.cat-box img {
+	width: 100%;
+	display:inline-block;
+}
+}
+
+@media screen and (max-width: 550px) {
+.pst-tab label {
+	padding: 8px 5px;
+}
+.gal-container {
+	height: auto;
+}
+.slider {
+	padding-top: 70%;
+}
+.slider label {
+	width: 60px;
+	height: 60px;
+}
+.slider label img {
+	max-height: 50px;
+	max-width: 50px;
+}
+}
+
+@media screen and (max-width: 400px) {
+.gal-container {
+	height: auto;
+}
+.slider {
+	padding-top: 77%;
+}
+.slider label {
+	width: 70px;
+	height: 70px;
+}
+.slider label img {
+	max-height: 60px;
+	max-width: 60px;
+}
+.pst-tab label {
+	padding: 8px;
+}
+.tab-txt, .pst-tab section p {
+	font-size: 12px;
+}
+}
