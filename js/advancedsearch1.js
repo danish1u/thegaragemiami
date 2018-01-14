@@ -83,8 +83,9 @@ function makesearch()
 srchquery1 = document.getElementById('level0').options[document.getElementById('level0').selectedIndex].value;
 srchquery2 = document.getElementById('level1').options[document.getElementById('level1').selectedIndex].value;
 srchquery3 = document.getElementById('level2').options[document.getElementById('level2').selectedIndex].value;
-var fullquery = ""+ srchquery2 +" "+ srchquery3 +"";
+var fullquery = ""+ srchquery1 +" "+ srchquery2 +"";
 document.dropdowns_form.query.value = fullquery;
 document.dropdowns_form.submit();
 }
-writeoptions("level1","level2");
+writeoptions("level1","0");
+writeoptions("level2","2");
