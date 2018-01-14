@@ -1,0 +1,106 @@
+.pst-landingpage {
+  margin-top: 0px !important;
+}
+td#CentralArea div.rs_box span.pdmt .label {
+    display: none !important;
+}
+section {
+  float: left !important;
+  margin-top: 7px !important;
+  margin-left: -50px !important;
+}
+section #services {
+  text-align: center !important;
+  transform: translatez(0) !important;
+}
+.srch-btn1 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+.navbar-nav {
+    margin: 0px 0px !important;
+}
+  .srch-btn1 {
+    float: left;
+    margin: 11px 0px 0px 32px !important;
+    outline: none !important;
+    display: block !important;
+  }
+  .toplinks li {
+    float: left !important;
+    padding: 10px 17px 0 0 !important;
+  }
+  .srchfld {
+    color: #000 !important;
+  }
+  .srch-btn {
+    display: none !important;
+  }
+  #navbar .navbar-nav li:last-child {
+    background: none !important;
+  }
+  .toplinks {
+    padding-left: 35px !important;
+  }
+  .logo {
+    padding-top: 20px !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  section #services {
+    text-align: center !important;
+    padding-left: 10px !important;
+    margin: 0px !important;
+    transform: translatez(0)!important;
+  }
+  .srch-btn1 {
+    margin: 11px 0px 0px 8px !important;
+  }
+  .topnavcont {
+    margin: 0px 0 !important;
+  }
+}
+
+section #services h2 {
+  color: #fff !important;
+  font-size: 2.4em !important;
+  font-family: 'Raleway Dots', sans-serif !important;
+  text-transform: uppercase !important;
+  text-align: center !important;
+}
+section #services li {
+  width: 30px !important;
+  height: 30px !important;
+  display: inline-block !important;
+  margin: 7px !important;
+  list-style: none !important;
+  margin-right: 7px !important;
+  margin-left: 1px !important;
+}
+section #services li i {
+  width: 30px !important;
+  height: 30px !important;
+  color: #000000 !important;
+  font-size: 1.2em !important;
+  text-align: center !important;
+  line-height: 30px !important;
+  background-color: #fff !important;
+  transition: all 0.5s ease !important;
+}
+section #services li i:hover {
+  transform: rotate(360deg) !important;
+  border-radius: 100px !important;
+  background-color: #242847 !important;
+  color: #fff !important;
+}
+section #services li span {
+  width: 90px !important;
+  height: 90px !important;
+  display: block !important;
+  padding: 15px 0px !important;
+  color: #fff !important;
+  font-family: 'Advent Pro', sans-serif !important;
+  text-transform: uppercase !important;
+  font-size: 1.2em !important;
+  text-align: center !important;
+}
