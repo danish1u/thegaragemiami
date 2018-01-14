@@ -211,7 +211,7 @@ padding-right: 0;
 
 .autopart-bg{
 	clear:both;
-    background: url(../images/autopart-bg.jpg) center top no-repeat;
+    background: url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Wheel/autocare55.png") center top no-repeat;
     min-height: 154px;
 }
 .autopart-bg h6{
@@ -1360,7 +1360,7 @@ margin-left: 1.8px;
 	height:60px;
 	}
 #gobutton{
-	background:url(../images/autopart-btn.jpg) no-repeat center center;
+	background:url("https://raw.githubusercontent.com/danish1u/thegaragemiami/master/Wheel/autopart-btn.jpg") no-repeat center center;
 	height:60px;
 	border:none;
 	width:12%;
